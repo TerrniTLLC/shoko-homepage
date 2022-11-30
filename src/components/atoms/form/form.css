@@ -1,0 +1,76 @@
+.form__container {
+  margin-bottom: 9rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-width: 100%;
+}
+
+.input__name {
+  width: 310px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  font-size: 18px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  border-color: inherit;
+  background: inherit;
+  padding-left: 1rem;
+  padding: 15px;
+  margin-top: 23px;
+}
+
+.input__email {
+  width: 310px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  appearance: none;
+  font-size: 18px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  border-color: inherit;
+  background: inherit;
+  padding-left: 1rem;
+  margin-top: 15px;
+}
+
+.input__message {
+  margin-top: 2rem;
+  width: 310px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  font-size: 18px;
+  height: 215px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  border-color: inherit;
+  background: inherit;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 11rem;
+}
+
+.form__button {
+  align-self: center;
+  height: 40px;
+  font-size: 16px;
+  width: 140px;
+  align-items: center;
+  background-color: var(--button-background);
+  border-radius: 10px;
+  color: var(--text-color-w);
+  margin-top: 3rem;
+  transition: all 200ms ease-in;
+}
+
+.form__button:hover {
+  background-color: #1d3557;
+  transition: all 200ms ease-in;
+}

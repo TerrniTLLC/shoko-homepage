@@ -1,0 +1,80 @@
+.hero__wrapper {
+  background-color: #19192a;
+  max-width: 100%;
+  margin: 0px auto;
+}
+.parallax {
+  background: url("../../images/Bongo-Jams.gif");
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.parallax h1 {
+  z-index: -1;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 54px;
+}
+.parallax .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.parallax-content {
+  z-index: 3;
+}
+
+.hero__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__content {
+  color: var(--text-color-w);
+  text-align: center;
+}
+
+.hero__heading {
+  color: var(--text-color-w);
+  text-shadow: 4px 2px 1px rgba(150, 150, 150, 1);
+}
+
+.hero__logo {
+  margin-top: 2rem;
+  width: 65px;
+  height: 65px;
+}
+
+.hero__arrow {
+  margin-bottom: 1rem;
+  width: 45px;
+  height: 45px;
+}
+
+@media (min-width: 1440px) {
+  .parallax {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__content h1 {
+    font-size: 34px;
+    text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  }
+  .hero__content h3 {
+    font-size: 18px;
+  }
+}
